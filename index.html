@@ -81,7 +81,7 @@
             padding: 12px 16px;
             border-radius: 10px;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.3 ease;
             color: var(--text-secondary);
         }
 
@@ -168,7 +168,7 @@
             border: 1px solid var(--border);
             border-radius: 12px;
             font-size: 1rem;
-            transition: all 0.3s ease;
+            transition: all 0.3 ease;
             background: rgba(255, 255, 255, 0.05);
             color: var(--text-primary);
         }
@@ -188,7 +188,7 @@
             font-size: 1rem;
             font-weight: 700;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.3 ease;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -248,7 +248,7 @@
             display: flex;
             align-items: center;
             gap: 20px;
-            transition: all 0.3s ease;
+            transition: all 0.3 ease;
             cursor: pointer;
             border: 1px solid var(--border);
             position: relative;
@@ -263,7 +263,7 @@
             width: 100%;
             height: 100%;
             background: linear-gradient(90deg, transparent, rgba(0, 242, 254, 0.1), transparent);
-            transition: left 0.5s;
+            transition: left 0.5;
         }
 
         .song-card:hover::before {
@@ -303,7 +303,7 @@
             align-items: center;
             justify-content: center;
             opacity: 0;
-            transition: opacity 0.3s ease;
+            transition: opacity 0.3 ease;
             color: var(--primary);
             font-size: 1.5rem;
         }
@@ -350,7 +350,7 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.3 ease;
         }
 
         .action-btn:hover {
@@ -376,7 +376,7 @@
             padding: 10px 20px;
             border-radius: 8px;
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.3 ease;
             display: flex;
             align-items: center;
             gap: 8px;
@@ -410,7 +410,7 @@
 
         .loading i {
             margin-right: 15px;
-            animation: spin 1s linear infinite;
+            animation: spin 1 linear infinite;
             color: var(--primary);
         }
 
@@ -453,14 +453,14 @@
             right: 20px;
             width: 280px;
             z-index: 1000;
-            transition: all 0.3s ease;
+            transition: all 0.3 ease;
             border: 1px solid var(--border);
             backdrop-filter: blur(10px);
         }
 
         .player-section .now-playing {
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.3 ease;
             display: flex;
             align-items: center;
             gap: 12px;
@@ -1517,7 +1517,7 @@
 
         /* 封面加载动画 */
         .cover-loading {
-            animation: pulse 1.5s infinite;
+            animation: pulse 1.5 infinite;
         }
 
         @keyframes pulse {
@@ -1543,7 +1543,7 @@
         <div class="sidebar-menu">
             <div class="sidebar-item active" data-api="netease">
                 <i class="fas fa-music"></i>
-                <span>网易云音乐</span>
+                <span>网易云音乐(VIP限制)</span>
             </div>
             <div class="sidebar-item" data-api="qq">
                 <i class="fas fa-headphones"></i>
@@ -1553,7 +1553,7 @@
         <div class="sidebar-footer">
             <p>许多功能未完善，敬请期待</p>
             <p>基于云智API开发</p>
-            <p>版本 1.0.0</p>
+            <p>版本 0.0.1测试版</p>
         </div>
     </div>
 
